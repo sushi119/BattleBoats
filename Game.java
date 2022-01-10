@@ -37,13 +37,13 @@ public class Game {
         while (true){
             if ( board.getBoatsRemaining() == 0 ) break;
             if ( debugMode ) board.print();
-            System.out.println("\nChoose move: (fire, missile, or drone)\nType quit to end the game"); //took out submarine, didn't have time to implement
+            System.out.println("\nChoose move: (fire, missile, or drone)\nType quit to end the game"); 
 
             // read user input
             userInput = scan2.next();
 
             if ( userInput.equals("fire") ) {
-                System.out.println("Choose coordinates to attack. First coordinate is row(starting with 0) and second is column(starting with zero)\nPlease type each coordinate on separate lines: ");
+                System.out.println("Choose coordinates to attack. First coordinate is row(starting with 0) and second is column(starting with 0)\nPlease type each coordinate on separate lines: ");
                 boolean valid = false;
                 while (!valid) {
                     // read user input
@@ -70,7 +70,7 @@ public class Game {
 
                     if ( !missileUse ) {
 
-                        System.out.println("Choose center coordinates of missile attack (type each coordinate on separate lines):");
+                        System.out.println("Choose center coordinates of missile attack. First coordinate is row(starting with 0) and second is column(starting with 0)\nType each coordinate on separate lines:");
 
                         boolean valid = false;
 
@@ -99,7 +99,7 @@ public class Game {
 
                     if ( !droneUse ) {
 
-                        System.out.println("Choose to scan through a row or column:");
+                        System.out.println("Type 'row' to scan through a row or 'column' to scan through a column:");
 
                         String choice = null;
                         boolean direction = false;
