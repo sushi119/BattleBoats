@@ -4,7 +4,7 @@ Created a battleship game via Java versus the computer
 The files are: Board.java, Game.java, Cell.java, Game.java, Boat.java
 Game class contains main method
 
-In order to run the BattleBoats program via terminal compile each by:
+In order to run the BattleBoats program via terminal compile each file by:
 "javac <fname.java>"
 Ex: javac Game.java
 
