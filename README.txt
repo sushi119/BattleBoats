@@ -1,3 +1,6 @@
+# BattleBoats
+Created a battleship game via Java versus the computer
+
 The files are: Board.java, Game.java, Cell.java, Game.java, Boat.java
 Game class contains main method
 
